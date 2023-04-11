@@ -2,11 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@700&display=swap');
 
-@font-face {
-    font-family: 'Sora';
-    src: url('desafio10/fontes/Bebas_Neue/Sora/Sora-VariableFont_wght.ttf');
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@700&display=swap');
+
 
 :root{
     --cor0: #e5ebd6;
@@ -18,7 +15,7 @@
 
     --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
-    --font-droid: 'Android', cursive;
+    --font-droid: 'Sora', 'sans-serif', cursive;
 }
 
 * {
@@ -65,7 +62,8 @@ header > p{
 h1{
     font-weight: normal;
     color: var(--cor5);
-    font-family: 'Sora';
+    font-family: var(--font-droid);
+    text-transform: uppercase;
 }
 
 nav{
@@ -154,7 +152,8 @@ main img.pequena{
 }
 
 article h2{
-    font-family: 'Sora';
+    font-family: var(--font-droid);
+    text-transform: uppercase;
     width: 50%;
     color: var(--cor4);
     font-size: 1.3em;

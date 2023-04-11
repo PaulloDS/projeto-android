@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@700&display=swap');
 
 @font-face {
-    font-family: 'Android';
-    src: url('/fontes/');
+    font-family: 'Sora';
+    src: url('/fontes/Bebas_Neue/Sora/Sora-VariableFont_wght.ttf');
     font-weight: normal;
 }
 
@@ -65,7 +65,7 @@ header > p{
 h1{
     font-weight: normal;
     color: var(--cor5);
-    font-family: 'Android';
+    font-family: 'Sora';
 }
 
 nav{
@@ -154,7 +154,7 @@ main img.pequena{
 }
 
 article h2{
-    font-family: 'Android';
+    font-family: 'Sora';
     width: 50%;
     color: var(--cor4);
     font-size: 1.3em;
